@@ -1,0 +1,553 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-attachment: fixed;
+  position: relative;
+
+}
+
+
+
+
+body,html{
+  width: 100%;
+  height: 100%;
+  background :#e7e7dc;
+overflow:scroll ;
+
+
+
+
+ 
+}
+
+ 
+@media  (min-height:500px){
+  .cont{
+    width: 40%;
+    font-size: 20px;
+  }
+}
+.menu ul {
+  margin: 0;
+  list-style:none ;
+  padding: 0;
+  display: flex;
+justify-content: center;
+
+}
+
+img {
+margin-top: 0;
+  width: 135px;
+  height: 63px;
+float: left;
+padding: 0px;
+
+}
+
+header{
+  background: rgb(231, 181, 227); 
+ margin-left: 0;
+ height: 60px;
+ width: 100%;
+
+
+
+
+}
+
+.hide{
+font-size: 22px;
+padding: 16px;
+color: white;
+cursor: pointer;
+display: none;
+
+}
+
+
+
+
+
+
+@media (width:500px )  {
+  .menu ul  {
+    flex-direction: column;
+    justify-content: center;  
+ 
+  }
+  header{
+  padding-bottom: 300px;
+  }
+
+}
+
+
+.menu ul {
+  background:rgb(231, 181, 227);
+
+}
+
+
+
+
+
+  .menu ul {
+    margin: 0;
+    list-style:none ;
+    display: flex;
+    justify-content: flex-end;
+
+
+  
+  }
+
+
+
+.menu li a{
+display: block;
+padding: 20px;
+text-decoration: none;
+color: rgb(15, 15, 15);
+font-size: 20px;
+font-weight: bold;
+
+
+
+}
+
+.menu ul :hover{
+background: rgb(170, 83, 6);
+}
+
+.eso{
+color: blanchedalmond;
+display:flex;
+align-items: center;
+justify-content: flex-end;
+height: 100vh;
+text-align: center;
+font-size: 30px;
+
+}
+
+.ima{
+ 
+  width: 100%;
+  height: 100vh;
+  background: url("./imagenes/76-760951_m\ \(1\).jpg");
+  background-size: cover;
+
+
+  
+}
+
+@media(min-width:500px){
+.ima{
+
+width: 100%;
+height: 50%;
+
+
+}
+}
+
+.imagen{
+  
+  background-image: url("./imagenes/76-761019_344736-title-women-face-wallpaper-hair-color-model_preview_rev_1\ \(1\).png");
+  background-size: cover;
+  height: 100vh ;
+}
+
+
+.fond{
+  width: 100%;
+  height: 100vh;
+  background: rgb(243, 166, 243);
+
+}
+
+.aspecto{
+  padding: 10px;
+  color: beige;
+  font-size: 28px;
+  font-style: oblique;
+
+
+}
+.parrafo{
+  width: 100vh;
+  margin:20px;
+  font-size: 28px;
+ text-align: justify;
+
+  
+}
+
+@media (max-width:1200px) {
+  .parrafo{
+    width:50% ;
+    font-size: 20px;
+  }
+  .fond{
+width: 700px;
+  }
+
+  .aspecto
+  {
+    width: 80%;
+  }
+
+}
+
+
+
+/* Aqui empieza producto  */
+
+.prod{
+display: flex;
+  justify-content: center;
+  font-family:  sans-serif;
+  padding: 15px;
+ 
+}
+.contenedor{
+  width: 80%;
+ margin: auto;
+ display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:15px;
+}
+
+.item
+{
+  background-color: white;
+  cursor: pointer;
+
+  box-shadow: 0 0 5px 0 rgba(0, 0,0, .095);
+}
+
+
+.item-img{
+  width: 80%;
+  height: 35VH;
+  display: block;
+}
+
+.texto1{
+  padding: 1em;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ text-align: center;
+}
+
+.precio{
+  background: rgb(224, 170, 163);
+  width: 80px;
+  height: 30px;
+border-radius: 10px;
+cursor: pointer;
+color: blue;
+font-size:15px ;
+
+}
+
+.precio:hover{
+  background: rgb(236, 122, 56);
+}
+
+@media screen   and (max-width:700px) {
+  .contenedor, .item ,.texto1,.prod{
+    grid-column: 1/ span 8;
+  }
+  .texto1{
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
+
+ /* Franja morada reinventate con nosotros   */
+.asi{
+   
+  width: 100%;
+  height: 25vh;
+  padding-top: 40px;
+}
+ 
+.exodo{
+  position: relative;
+  display: flex;
+  align-items: center;
+  
+  }
+  
+  .letra{
+    text-align: left;
+    padding: 40px;
+    position: absolute;
+    color: papayawhip;
+    font-size: 20px;
+    padding-bottom:20px ;
+  }
+  
+ .buton{
+   display: inline-block;
+  padding: 20px 40px;
+   width: 15%;
+   height:30%;
+   background: powderblue;
+  position:absolute;
+   border-radius: 10px;
+  margin-left: 1000px;
+  padding-bottom: 20px;
+
+
+
+
+ } 
+
+ .btn{
+   display: flex;
+   justify-content: center;
+text-decoration: none;
+color:black ;
+font-size: 17px;
+font-weight: bold;
+
+
+ }
+
+ @media (width:700px) {
+   .letra{
+width: 100%;
+font-size: 20px;
+   }
+  
+ }
+
+
+
+
+ /* ******************************************* GALERIA********************************************** */
+.galeriaa{
+ width: 80%;
+ margin: auto;
+ display: grid;
+  grid-template-columns: repeat(6,1fr);
+  
+}
+
+
+.gal{
+  width: 100%;
+  height:35vh;
+  background: chocolate;
+ 
+}
+
+
+ .gale{
+  width: 100%;
+  height: 35VH;
+ padding:0;
+ cursor: pointer;
+ transition: all 300ms;
+ position: relative;
+   
+}
+
+.gale:hover{
+  transform: scale(1.15);
+}
+
+
+.todo{
+  background: #faf9dd;
+  width: 100%;
+  height: 90vh;
+}
+
+.chooper{
+ 
+  display: flex;
+  justify-content: center;
+  font-family:  sans-serif;
+  padding: 30px;
+
+}
+@media screen   and (max-width:700px) {
+  .galeriaa,.gale,.gal{
+    grid-column: 1/ span 12;
+  }
+.todo{
+  width: 100%;
+  height: 2350px;
+  margin-left: 30px;
+}
+
+}
+
+/*  ************************************************CONTACTO*****************************************  */
+
+.modifico{
+  background:#cf4a8f;
+  width: 100%;
+  height:70vh ;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  font-family:  sans-serif;
+  padding: 10px;
+}
+
+.relleno{
+  width: 80%;
+  height: 50vh;
+  padding: 5px;
+  margin: 20px auto
+  
+}
+
+.map{
+  font-size: 20px;
+  color: bisque;
+  padding: 5px;
+ 
+
+
+}
+
+ .icono{
+   color: rgb(105, 56, 150);
+ }
+
+
+form{
+  width:450px;
+  background: rgb(245, 191, 111);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius:10px ;
+  position: absolute;
+  top:10%;
+  left: 40%;
+  transform: translate(-10%, -10%);
+
+  
+}
+
+.modifico h2{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+
+input,textarea{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+#botton{
+  width: 100px;
+margin-left:150px ;
+  background: rgb(124, 159, 235);
+  color: white;
+  padding: 10px;
+ border-radius: 10px;
+
+}
+
+#botton:hover{
+  cursor: pointer;
+
+}
+
+@media (max-width:700px) {
+  
+
+  
+  form{
+    width: 80%;
+  }
+  .map{
+    width:50%;
+    font-size: 20px;
+    margin-left: -50px;
+  }
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+/* ESTE ES EL FOOTER  */
+
+footer{
+  background:#3d1642 ;
+  width: 100%;
+  height: 20vh;
+position: absolute;
+
+
+
+}
+
+
+
+
+footer .red  img{
+
+  width:28px ;
+  height:28px ;
+
+
+
+}
+ .sociales li{
+  display: inline-block;
+  margin-left: 10px;
+
+  
+}
+
+.sociales ul{
+  display: flex;
+  justify-content: right;
+}
+
+
+.red {
+  display: flex;
+ align-items: center;
+  justify-content:flex-start;
+ color: white;
+ font-size:15px ;
+ height: 15vh;
+
+
+}
+
+
+ 
+
+
+
+
